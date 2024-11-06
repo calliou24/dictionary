@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import { ROOT_ROUTE } from "../../constants/constants";
 
 export default function Page404() {
   return (
@@ -9,7 +10,7 @@ export default function Page404() {
         <Link
           className={"underline"}
           style={{ color: "var(--main-purple)" }}
-          to="/"
+          to={ROOT_ROUTE}
         >
           go home
         </Link>

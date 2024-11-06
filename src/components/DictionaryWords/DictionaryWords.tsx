@@ -16,6 +16,7 @@ import ArrowLeft from "../../assets/icons/arrow-left.svg";
 
 //types
 import { wordDescriptionType } from "../../types/commonTypes";
+import { ROOT_ROUTE } from "../../constants/constants";
 
 export default function DictionaryWords() {
   const { wordDescriptions, notFoundedWord, loadingDescription } =
@@ -38,7 +39,7 @@ export default function DictionaryWords() {
       <header className="grid gap-3">
         <nav className="flex items-center justify-between">
           <Link
-            to="/"
+            to={ROOT_ROUTE}
             className={"underline flex items-center gap-0.5 text-lg"}
             style={{ color: "var(--main-purple)" }}
           >

@@ -4,10 +4,13 @@ import { Route } from "wouter";
 import Home from "./components/Home/Home";
 import DictionaryWords from "./components/DictionaryWords/DictionaryWords";
 
+//constants
+import { ROOT_ROUTE } from "./constants/constants";
+
 function App() {
   return (
     <main>
-      <Route path="/" component={Home} />
+      <Route path={ROOT_ROUTE} component={Home} />
       <Route path="/search/:word" component={DictionaryWords} />
     </main>
   );
