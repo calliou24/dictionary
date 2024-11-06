@@ -1,0 +1,70 @@
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 28px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--main-purple);
+  animation: l9 2s infinite;
+}
+@keyframes l9 {
+  0% {
+    box-shadow: 0 -16px var(--light-purple),
+      calc(16px * 0.707) calc(-16px * 0.707) var(--strong-purple),
+      0 0 var(--light-purple), 0 0 var(--strong-purple), 0 0 var(--light-purple),
+      0 0 var(--strong-purple), 0 0 var(--light-purple),
+      0 0 var(--strong-purple);
+  }
+  12.5% {
+    box-shadow: 0 0 var(--light-purple),
+      calc(16px * 0.707) calc(-16px * 0.707) var(--strong-purple),
+      16px 0 var(--light-purple), 0 0 var(--strong-purple),
+      0 0 var(--light-purple), 0 0 var(--strong-purple), 0 0 var(--light-purple),
+      0 0 var(--strong-purple);
+  }
+  25% {
+    box-shadow: 0 0 var(--light-purple), 0 0 var(--strong-purple),
+      16px 0 var(--light-purple),
+      calc(16px * 0.707) calc(16px * 0.707) var(--strong-purple),
+      0 0 var(--light-purple), 0 0 var(--strong-purple), 0 0 var(--light-purple),
+      0 0 var(--strong-purple);
+  }
+  37.5% {
+    box-shadow: 0 0 var(--light-purple), 0 0 var(--strong-purple),
+      0 0 var(--light-purple),
+      calc(16px * 0.707) calc(16px * 0.707) var(--strong-purple),
+      0 16px var(--light-purple), 0 0 var(--strong-purple),
+      0 0 var(--light-purple), 0 0 var(--strong-purple);
+  }
+  50% {
+    box-shadow: 0 0 var(--light-purple), 0 0 var(--strong-purple),
+      0 0 var(--light-purple), 0 0 var(--strong-purple),
+      0 16px var(--light-purple),
+      calc(-16px * 0.707) calc(16px * 0.707) var(--strong-purple),
+      0 0 var(--light-purple), 0 0 var(--strong-purple);
+  }
+  62.5% {
+    box-shadow: 0 0 var(--light-purple), 0 0 var(--strong-purple),
+      0 0 var(--light-purple), 0 0 var(--strong-purple), 0 0 var(--light-purple),
+      calc(-16px * 0.707) calc(16px * 0.707) var(--strong-purple),
+      -16px 0 var(--light-purple), 0 0 var(--strong-purple);
+  }
+  75% {
+    box-shadow: 0 0 var(--light-purple), 0 0 var(--strong-purple),
+      0 0 var(--light-purple), 0 0 var(--strong-purple), 0 0 var(--light-purple),
+      0 0 var(--strong-purple), -16px 0 var(--light-purple),
+      calc(-16px * 0.707) calc(-16px * 0.707) var(--strong-purple);
+  }
+  87.5% {
+    box-shadow: 0 -16px var(--light-purple), 0 0 var(--strong-purple),
+      0 0 var(--light-purple), 0 0 var(--strong-purple), 0 0 var(--light-purple),
+      0 0 var(--strong-purple), 0 0 var(--light-purple),
+      calc(-16px * 0.707) calc(-16px * 0.707) var(--strong-purple);
+  }
+  100% {
+    box-shadow: 0 -16px var(--light-purple),
+      calc(16px * 0.707) calc(-16px * 0.707) var(--strong-purple),
+      0 0 var(--light-purple), 0 0 var(--strong-purple), 0 0 var(--light-purple),
+      0 0 var(--strong-purple), 0 0 var(--light-purple),
+      0 0 var(--strong-purple);
+  }
+}
