@@ -4,7 +4,7 @@ import { LanguagesType } from "@/types/commonTypes";
 export const PAUSE_KEY = "pause";
 export const PLAY_KEY = "play";
 
-export const ROOT_ROUTE = "/dictionary/";
+export const ROOT_ROUTE = "/";
 
 export const TRANSLATE_API_URL: string =
   "https://translate-severless-function-cors.vercel.app/api/translate";
