@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Neue";
+  src: url("../assets/fonts/HelveticaNeueLight.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue";
+  src: url("../assets/fonts/HelveticaNeueLightItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Neue";
+  src: url("../assets/fonts/HelveticaNeueMedium.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Neue";
+  src: url("../assets/fonts/HelveticaNeueMediumItalic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
